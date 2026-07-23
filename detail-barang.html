@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Detail Barang</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-light">
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="fa-solid fa-flask"></i>
+            Farmasi Unram
+        </a>
+
+        <div class="ms-auto">
+
+            <a href="#" class="btn btn-light btn-sm">
+                Masuk
+            </a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<div class="container py-4">
+
+    <a href="index.html" class="text-decoration-none small">
+        ← Kembali ke Katalog
+    </a>
+
+    <div class="row mt-3">
+
+        <!-- ================= LEFT ================= -->
+
+        <div class="col-lg-8">
+
+            <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=80"
+                class="img-fluid rounded shadow-sm">
+
+            <nav class="mt-3 small text-secondary">
+
+                Katalog
+                >
+                Alat Optik
+                >
+                Mikroskop Elektron
+
+            </nav>
+
+            <div class="d-flex justify-content-between align-items-center mt-2">
+
+                <div>
+
+                    <h2 class="fw-bold">
+                        Mikroskop Elektron Pemindaian (SEM-102)
+                    </h2>
+
+                    <div class="text-muted">
+
+                        <i class="fa-solid fa-building"></i>
+
+                        Alat Optik & Imaging
+
+                        &nbsp;&nbsp;
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        Lab Nanoteknologi Lantai 3
+
+                    </div>
+
+                </div>
+
+                <span class="badge bg-info">
+                    Kondisi Sangat Baik
+                </span>
+
+            </div>
+
+            <hr>
+
+            <!-- ================= DESKRIPSI ================= -->
+
+            <h5 class="fw-bold mb-3">
+
+                <i class="fa-regular fa-circle-info"></i>
+
+                Deskripsi Produk
+
+            </h5>
+
+            <p class="text-secondary">
+
+                Mikroskop Elektron Pemindaian (SEM) merupakan instrumen
+                laboratorium yang digunakan untuk menghasilkan gambar
+                permukaan material dengan resolusi tinggi.
+
+                Alat ini digunakan pada penelitian farmasi,
+                biologi, material serta analisis mikrostruktur.
+
+            </p>
+
+            <hr class="my-4">
+
+            <!-- ================= ATURAN ================= -->
+
+            <h5 class="fw-bold mb-3">
+
+                <i class="fa-solid fa-shield"></i>
+
+                Aturan Peminjaman
+
+            </h5>
+
+            <div class="row g-3">
+
+                <div class="col-md-6">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            ✔ Wajib mengikuti pelatihan penggunaan alat.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            ✔ Didampingi teknisi laboratorium.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            ✔ Kerusakan menjadi tanggung jawab peminjam.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            ✔ Alat dikembalikan dalam keadaan bersih.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            ✔ Maksimal peminjaman 4 jam.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            ✔ Isi buku penggunaan setelah selesai.
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ================= RIGHT ================= -->
+
+        <div class="col-lg-4">
+
+            <div class="card shadow-sm sticky-top" style="top:20px;">
+
+                <div class="card-body">
+
+                    <h5 class="fw-bold">
+
+                        Formulir Booking
+
+                    </h5>
+
+                    <small class="text-muted">
+
+                        Atur jadwal peminjaman.
+
+                    </small>
+
+                    <hr>
+
+                    <label class="form-label">
+
+                        Tanggal Pinjam
+
+                    </label>
+
+                    <input type="date" class="form-control mb-3">
+
+                    <label class="form-label">
+
+                        Waktu Pinjam
+
+                    </label>
+
+                    <input type="time" class="form-control mb-3">
+
+                    <label class="form-label">
+
+                        Jumlah Barang
+
+                    </label>
+
+                    <input type="number"
+                        value="1"
+                        min="1"
+                        class="form-control mb-3">
+
+                    <div class="alert alert-success">
+
+                        Status :
+                        <strong>Tersedia (3 Unit)</strong>
+
+                    </div>
+
+                    <button class="btn btn-primary w-100">
+
+                        Konfirmasi Booking
+
+                    </button>
+
+                    <hr>
+
+                    <small class="text-muted">
+
+                        Dengan menekan tombol di atas,
+                        Anda menyetujui seluruh aturan peminjaman.
+
+                    </small>
+
+                </div>
+
+            </div>
+
+            <div class="card mt-4">
+
+                <div class="card-body">
+
+                    <h6 class="fw-bold">
+
+                        Butuh Bantuan?
+
+                    </h6>
+
+                    <small>
+
+                        Hubungi Admin Lab melalui WhatsApp jika
+                        mengalami kendala.
+
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-white border-top mt-5">
+
+    <div class="container py-5">
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <h6 class="fw-bold">
+
+                    Tentang Lab
+
+                </h6>
+
+                <p class="small text-muted">
+
+                    Sistem peminjaman laboratorium
+                    terintegrasi untuk praktikum
+                    Fakultas Farmasi Universitas Mataram.
+
+                </p>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <h6 class="fw-bold">
+
+                    Kebijakan
+
+                </h6>
+
+                <ul class="list-unstyled small">
+
+                    <li>Syarat & Ketentuan</li>
+
+                    <li>Kebijakan Privasi</li>
+
+                    <li>Prosedur Laboratorium</li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <h6 class="fw-bold">
+
+                    Lokasi
+
+                </h6>
+
+                <p class="small">
+
+                    Fakultas Farmasi Universitas Mataram
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center small text-muted">
+
+            © 2026 Fakultas Farmasi Universitas Mataram
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

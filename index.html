@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmasi Unram</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="fa-solid fa-flask"></i>
+            Farmasi Unram
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-4">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Beranda</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Katalog Peminjaman</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Riwayat</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bantuan</a>
+                </li>
+
+            </ul>
+
+            <div class="ms-auto d-flex align-items-center">
+
+                <i class="fa-regular fa-bell me-4 fs-5"></i>
+
+                <img src="https://i.pravatar.cc/40" class="rounded-circle">
+
+            </div>
+
+        </div>
+
+    </div>
+</nav>
+
+<!-- ================= CONTENT ================= -->
+
+<div class="container mt-4">
+
+    <!-- Banner -->
+
+    <div class="alert alert-primary border">
+
+        <h6 class="fw-bold">
+            <i class="fa-solid fa-circle-info"></i>
+            Aturan Peminjaman Laboratorium Farmasi
+        </h6>
+
+        <small>
+            Semua peminjaman harus menggunakan akun praktikum.
+            Pengembalian alat dilakukan maksimal H+1.
+        </small>
+
+    </div>
+
+    <div class="row mt-4">
+
+        <!-- Sidebar -->
+
+        <div class="col-lg-3">
+
+            <div class="card mb-3">
+
+                <div class="card-header fw-bold">
+                    KATEGORI POPULER
+                </div>
+
+                <div class="list-group list-group-flush">
+
+                    <a href="#" class="list-group-item">
+                        Instrumen Analitik
+                    </a>
+
+                    <a href="#" class="list-group-item">
+                        Gelas Ukur
+                    </a>
+
+                    <a href="#" class="list-group-item">
+                        Bahan Kimia
+                    </a>
+
+                    <a href="#" class="list-group-item">
+                        Mikrobiologi
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-header fw-bold">
+
+                    KONTAK ASISTEN
+
+                </div>
+
+                <div class="card-body">
+
+                    <p class="small">
+                        Hubungi asisten jika mengalami kendala.
+                    </p>
+
+                    <button class="btn btn-success w-100">
+                        WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Produk -->
+
+        <div class="col-lg-9">
+
+            <!-- Search -->
+
+            <div class="card mb-3">
+
+                <div class="card-body">
+
+                    <div class="input-group">
+
+                        <span class="input-group-text">
+
+                            <i class="fa fa-search"></i>
+
+                        </span>
+
+                        <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Cari alat..."
+                        >
+
+                    </div>
+
+                    <div class="mt-3">
+
+                        <button class="btn btn-outline-secondary btn-sm">Lab 1</button>
+                        <button class="btn btn-outline-secondary btn-sm">Lab 2</button>
+                        <button class="btn btn-outline-secondary btn-sm">Alat</button>
+                        <button class="btn btn-outline-secondary btn-sm">Bahan</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Produk -->
+
+            <div class="row">
+
+                <!-- Card -->
+
+                <div class="col-md-4 mb-4">
+
+                    <div class="card h-100">
+
+                        <img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac"
+                             class="card-img-top">
+
+                        <div class="card-body">
+
+                            <small class="text-secondary">ALAT</small>
+
+                            <h6 class="fw-bold">
+                                Mikroskop Binokuler
+                            </h6>
+
+                            <p class="small text-muted">
+                                Laboratorium 1
+                            </p>
+
+                            <button class="btn btn-primary w-100">
+                                Pinjam Sekarang
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+
+                    <div class="card h-100">
+
+                        <img src="Gambar/Mortit.jpg"
+                             class="card-img-top">
+
+                        <div class="card-body">
+
+                            <small class="text-secondary">ALAT</small>
+
+                            <h6 class="fw-bold">
+                                Mortir dan Ulekan
+                            </h6>
+
+                            <p class="small text-muted">
+                                Laboratorium 2
+                            </p>
+
+                            <button class="btn btn-primary w-100">
+                                Pinjam Sekarang
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+
+                    <div class="card h-100">
+
+                        <img src="Gambar/Asam-Klorida-PT-Adimitra-Prima-Lestari.png"
+                             class="card-img-top">
+
+                        <div class="card-body">
+
+                            <small class="text-secondary">
+                                BAHAN
+                            </small>
+
+                            <h6 class="fw-bold">
+                                Asam klorida (HCl)
+                            </h6>
+
+                            <p class="small text-muted">
+                                Laboratorium 3
+                            </p>
+
+                            <button class="btn btn-primary w-100">
+                                Pinjam Sekarang
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Tambah card lain sesuai kebutuhan -->
+
+            </div>
+
+            <!-- Pagination -->
+
+            <nav>
+
+                <ul class="pagination justify-content-center">
+
+                    <li class="page-item active">
+
+                        <a class="page-link">1</a>
+
+                    </li>
+
+                    <li class="page-item">
+
+                        <a class="page-link">2</a>
+
+                    </li>
+
+                    <li class="page-item">
+
+                        <a class="page-link">3</a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-light mt-5 border-top">
+
+    <div class="container py-5">
+
+        <div class="row">
+
+            <div class="col-md-3">
+
+                <h6 class="fw-bold">
+                    Farmasi Unram
+                </h6>
+
+                <p class="small">
+                    Platform peminjaman alat laboratorium.
+                </p>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h6>Akses Cepat</h6>
+
+                <ul class="list-unstyled small">
+
+                    <li>Katalog</li>
+                    <li>Panduan</li>
+                    <li>Jadwal</li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h6>Laboratorium</h6>
+
+                <ul class="list-unstyled small">
+
+                    <li>Kimia Farmasi</li>
+                    <li>Farmasetika</li>
+                    <li>Mikrobiologi</li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <h6>Kontak</h6>
+
+                <p class="small">
+
+                    Mataram<br>
+                    0812xxxxxxx
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
